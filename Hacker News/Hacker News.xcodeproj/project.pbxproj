@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		553819562549EFF3002AE79D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553819552549EFF3002AE79D /* AppDelegate.swift */; };
 		553819582549EFF3002AE79D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553819572549EFF3002AE79D /* SceneDelegate.swift */; };
-		5538195A2549EFF3002AE79D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553819592549EFF3002AE79D /* ViewController.swift */; };
 		5538195D2549EFF3002AE79D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5538195B2549EFF3002AE79D /* Main.storyboard */; };
 		5538195F2549EFF6002AE79D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5538195E2549EFF6002AE79D /* Assets.xcassets */; };
 		553819622549EFF6002AE79D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 553819602549EFF6002AE79D /* LaunchScreen.storyboard */; };
+		5538196B254C8CE5002AE79D /* NewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5538196A254C8CE5002AE79D /* NewsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		553819522549EFF3002AE79D /* Hacker News.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hacker News.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		553819552549EFF3002AE79D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		553819572549EFF3002AE79D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		553819592549EFF3002AE79D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5538195C2549EFF3002AE79D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5538195E2549EFF6002AE79D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		553819612549EFF6002AE79D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		553819632549EFF6002AE79D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5538196A254C8CE5002AE79D /* NewsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +56,23 @@
 		553819542549EFF3002AE79D /* Hacker News */ = {
 			isa = PBXGroup;
 			children = (
+				55381969254C8CC7002AE79D /* View Controllers */,
 				553819552549EFF3002AE79D /* AppDelegate.swift */,
 				553819572549EFF3002AE79D /* SceneDelegate.swift */,
-				553819592549EFF3002AE79D /* ViewController.swift */,
 				5538195B2549EFF3002AE79D /* Main.storyboard */,
 				5538195E2549EFF6002AE79D /* Assets.xcassets */,
 				553819602549EFF6002AE79D /* LaunchScreen.storyboard */,
 				553819632549EFF6002AE79D /* Info.plist */,
 			);
 			path = "Hacker News";
+			sourceTree = "<group>";
+		};
+		55381969254C8CC7002AE79D /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5538196A254C8CE5002AE79D /* NewsTableViewController.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5538195A2549EFF3002AE79D /* ViewController.swift in Sources */,
+				5538196B254C8CE5002AE79D /* NewsTableViewController.swift in Sources */,
 				553819562549EFF3002AE79D /* AppDelegate.swift in Sources */,
 				553819582549EFF3002AE79D /* SceneDelegate.swift in Sources */,
 			);
